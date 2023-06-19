@@ -6,7 +6,7 @@
 ```console
 C:\Program Files (x86)\NUnit.org\nunit-console>
 nunit3-console 
-D:\KODLAMA_ILE_ILGILI\CSharp\ToolBaseFlaUIAutomation\ToolBaseUIAutomation\ToolBaseUIAutomation\ToolBaseUIAutomation.csproj 
+D:\KODLAMA_ILE_ILGILI\CSharp\FlaUIAutomation\ToolBaseUIAutomation\UIAutomation\UIAutomation.csproj 
 --tp locatorJsonPath=locatorPath 
 --tp testCaseJsonPath=testCasePAth
 ```
