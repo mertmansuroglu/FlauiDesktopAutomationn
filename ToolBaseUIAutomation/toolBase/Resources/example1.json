@@ -1,0 +1,66 @@
+{
+  "locatorType_examples": [
+    "CLASS_NAME",
+    "ID",
+    "NAME",
+    "XPATH",
+    "TEXT"
+  ],
+  "elementType_examples": [
+    "BUTTON",
+    "LISTBOX",
+    "TEXTBOX",
+    "LABEL",
+    "COMBOBOX"
+  ],
+  "txtName": {
+    "Windows": {
+      "locatorType": "ID",
+      "locatorValue": "txtName",
+      "elementType": "TEXTBOX"
+    }
+  },
+  "cbGrade": {
+    "Windows": {
+      "locatorType": "ID",
+      "locatorValue": "cbGrade",
+      "elementType": "COMBOBOX"
+    }
+  },
+  "btnAddToList": {
+    "Windows": {
+      "locatorType": "ID",
+      "locatorValue": "btnAddToList",
+      "elementType": "BUTTON"
+    }
+  },
+  "btnRemoveFromList": {
+    "Windows": {
+      "locatorType": "XPATH",
+      "locatorValue": "//*[@AutomationId='btnRemove']",
+      "elementType": "BUTTON"
+    }
+  },
+  "lstNameGrade": {
+    "Windows": {
+      "locatorType": "XPATH",
+      "locatorValue": "//*[@AutomationId='autolstName']",
+      "elementType": "LISTBOX"
+    }
+  },
+
+  "msgBoxErrorText": {
+    "Windows": {
+      "locatorType": "XPATH",
+      "locatorValue": "//*[@AutomationId='65535']",
+      "elementType": "LABEL"
+    }
+  },
+  "msgBoxErrorBtnOk": {
+    "Windows": {
+      "locatorType": "XPATH",
+      "locatorValue": "//*[@AutomationId='1']",
+      "elementType": "BUTTON"
+    }
+  }
+}
